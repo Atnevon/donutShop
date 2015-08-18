@@ -1,0 +1,70 @@
+// Place all the styles related to the Donuts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotronHome {
+ background-image:url('http://i.imgur.com/1ISYiiI.jpg'); 
+ 
+ padding-top: 25%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ margin-top: -40px;
+ background-position:  center;
+ color: white;
+ margin-bottom: 0px;
+}
+
+.jumbotronHome h1 {
+	color: white;
+	font-size: 4em;
+	text-shadow: 4px 4px 4px black;
+
+}
+
+.jumbotronHome h3 {
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.jumbotron {
+ background-color: white;
+ padding-top: 5%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ margin-top: 10px;
+ background-position:  center;
+ margin-bottom: 0px;
+ text-align: center;
+}
+
+body > div > h1 {
+	text-align: center;
+	font-size: 4em;
+	
+}
+
+body > div {
+	margin-top: 10px;
+}
+
+body > nav > div.navbar-header > a > img {
+	height: 45px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 7px;
+	margin-bottom: auto;
+}
+
+#bs-example-navbar-collapse-1 > ul {
+	padding-left: 20px;
+}
+
+h1.menu-title {
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
